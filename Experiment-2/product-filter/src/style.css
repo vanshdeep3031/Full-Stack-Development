@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #f5f5f5, #e0e0e0);
+  padding: 40px;
+}
+
+.container {
+  text-align: center;
+}
+
+.filter {
+  margin: 20px 0;
+}
+
+select {
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.tag {
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
+}
+
+.electronics {
+  background: royalblue;
+}
+
+.clothing {
+  background: lightblue;
+  color: black;
+}
+
